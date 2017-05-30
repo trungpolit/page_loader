@@ -1,0 +1,21 @@
+{
+  "name": "page_loader",
+  "version": "1.0.0",
+  "description": "page loader",
+  "main": "index.js",
+  "dependencies": {
+    "nightmare": "^2.10.0",
+    "winston": "^2.3.1",
+    "yargs": "^8.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js -u https://www.agoda.com/vi-vn/ -w .rec-cities-item-caption"
+  },
+  "keywords": [
+    "page",
+    "loader"
+  ],
+  "author": "trungnq",
+  "license": "ISC"
+}
